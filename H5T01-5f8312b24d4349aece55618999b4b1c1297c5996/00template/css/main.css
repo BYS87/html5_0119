@@ -1,3 +1,16 @@
+/* Global Tag */
+ul {
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration:none;
+    color:black;
+    /* cursor: wait; */
+}
+/* My Style, 커스터마이징 */
+
+
 #wrapper {
     width: 1000px;
     margin: 0 auto;
@@ -9,8 +22,26 @@ img{
     text-align: center;
     font-size: 2rem;
 }
-#header a{
-    text-decoration:none;
-    color:black;
-}
 
+#nav ul{
+    list-style: none;
+}
+#nav ul li {
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    background-color:#800040 ;
+    padding:10px; 
+    }
+    #nav ul a{
+    color:white;
+}
+#nav ul.menus{
+    float: left;
+}
+#nav ul.icons{
+    float: right;
+}
+#main {
+    clear: both;
+}
