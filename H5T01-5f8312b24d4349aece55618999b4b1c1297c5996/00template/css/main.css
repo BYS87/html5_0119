@@ -14,6 +14,7 @@ a {
 #wrapper {
     width: 1000px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 img{
     width: 100%;
@@ -44,4 +45,55 @@ img{
 }
 #main {
     clear: both;
+}
+.featured {
+    margin-top: 88px;
+}
+.featured header h2 {
+    text-align: center
+}
+/* 구분선 넣기 */
+#footer {
+    border-top: solid 1px #c0c0c0;
+    padding-top: 30px;
+    display:flex;
+}
+/* flex는 화면의 너비에 비율적으로 적용됨. */
+#footer .contact,
+#footer .info {
+    flex:1;
+    padding:30px;
+}
+#footer .contact label,
+#footer .contact input {
+    display:block;
+}
+#footer .contact label {
+    margin-bottom: 10px;
+}
+#footer .contact input{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width:100%;
+    height: 20px;
+}
+#footer .contact textarea {
+    box-sizing: border-box;
+    width:100%;   
+}
+#footer .info ul {
+    list-style: none;
+}
+#footer .info ul li {
+    display: inline;
+}
+#copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgray;
+    color:#ededed;
 }
